@@ -1,20 +1,23 @@
-<!DOCTYPE html>
-<html lang="ca">
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=device-width, minimal-ui, initial-scale=1.0, maximum-scale=1.0, user-scalable=0;">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="format-detection" content="telephone=no, date=no, email=no, address=no">
+    <meta name="x-apple-disable-message-reformatting">
     <title>Benvinguda al Museu Nacional</title>
     <style>
         body {
             font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
-            background-color: #f5f5f5;
+            background-color: #fafbfd;
             color: #333;
             line-height: 1.6;
             margin: 0;
             padding: 0;
         }
         .container {
-            max-width: 600px;
+            max-width: 650px;
             width: 100%;
             margin: 0 auto;
             padding: 20px;
@@ -23,7 +26,8 @@
         }
         .header {
             text-align: center;
-            padding-bottom: 20px;
+            padding: 20px;
+            background-color: #000000;
         }
         .header img {
             max-width: 150px;
@@ -35,9 +39,18 @@
         }
         h2 {
             color: #0056a4;
+            font-size: 24px;
+        }
+        h3 {
+            color: #333333;
+            font-size: 20px;
         }
         ul {
             padding-left: 20px;
+            list-style-type: none;
+        }
+        ul li {
+            padding-bottom: 10px;
         }
         .cta-button {
             display: inline-block;
@@ -47,9 +60,17 @@
             text-decoration: none;
             border-radius: 5px;
             margin-top: 10px;
+            font-weight: bold;
         }
         .cta-button:hover {
-            background-color: #003d7e;
+            background-color: #f7ac69;
+        }
+        .footer {
+            padding: 20px;
+            text-align: center;
+            font-size: 12px;
+            color: #f7ac69;
+            border-top: 1px dashed #f7ac69;
         }
         @media screen and (max-width: 600px) {
             .container {
@@ -69,7 +90,7 @@
     <div class="container">
         <div class="header">
             <img src="https://www.museunacional.cat/sites/default/files/logo_museu_nacional.png" alt="Museu Nacional d'Art de Catalunya">
-            <h2>Benvinguda al nostre butlletí!</h2>
+            <h2>Gràcies per subscriure't</h2>
         </div>
         <div class="content">
             <p>Hola,</p>
@@ -83,6 +104,9 @@
             <p>Volem compartir amb tu tot el que ens fa únics i ajudar-te a gaudir al màxim de l'art i la cultura. Esperem veure't aviat per aquí!</p>
             <p>Fins aviat,</p>
             <p><strong>L'equip del Museu Nacional d'Art de Catalunya</strong></p>
+        </div>
+        <div class="footer">
+            <p><a href="https://museunacional.ac-page.com/donat-de-baixa-butlleti?email=%EMAIL%" style="color: #f7ac69; text-decoration: underline;">Dona't de baixa</a> - <a href="%WEBCOPY-NOSOCIAL%" style="color: #f7ac69; text-decoration: underline;">Veure on-line</a></p>
         </div>
     </div>
 </body>
